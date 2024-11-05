@@ -4,11 +4,12 @@
 
 * **Controller**: Handle HTTP requests for debit and credit transactions.
 
-* **Service Layer**: Use Factory and Chain of Responsibility patterns for processing transactions.
+* **Service Layer**: Use Factory, Chain of Responsibility and Builder(TransactionResponse) patterns for processing transactions.
 
 * **Model**: Represent transaction details.
 
 * **JUnit Tests**: Test the behavior of APIs and service logic.
+* Used H2 Database as an In-Memory Database in Spring Boot
 
 Sample postman object: 
 
